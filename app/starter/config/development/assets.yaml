@@ -1,0 +1,5 @@
+assets:
+  public-dir: .static
+  entry-path: app/starter/assets
+  public-path: app/starter/assets/.static
+  config-path: app/starter/assets/config

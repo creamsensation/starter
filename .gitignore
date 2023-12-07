@@ -1,0 +1,4 @@
+.idea
+app/starter/assets/.static/.dist
+app/starter/assets/.static/scripts
+app/starter/assets/.static/styles

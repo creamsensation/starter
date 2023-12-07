@@ -1,0 +1,22 @@
+security:
+  csrf:
+    enabled: true
+    duration: 24h
+  firewall:
+    main:
+      enabled: true
+      roles:
+        - owner
+    public:
+      enabled: true
+      invert: true
+      routes:
+  rate-limit:
+    enabled: false
+    attempts: 20
+    interval: 1m
+  role:
+    owner:
+      super: true
+  session:
+    duration: 24h

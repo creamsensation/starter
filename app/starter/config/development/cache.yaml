@@ -1,0 +1,6 @@
+cache:
+  adapter: redis
+  address: localhost:6379
+  user: default
+  password:
+  db: 0

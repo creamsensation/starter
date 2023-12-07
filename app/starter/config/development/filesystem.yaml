@@ -1,0 +1,3 @@
+filesystem:
+  driver: local
+  dir: app/starter/.private/files
