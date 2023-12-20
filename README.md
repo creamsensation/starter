@@ -11,6 +11,12 @@
 <br>
 Set project TypeScript to Deno.
 
-### Development
+### Install for development
 > https://formulae.brew.sh/formula/make <br>
 > https://github.com/cespare/reflex <br>
+
+#### If Assetter got new release, please run:
+``deno cache --reload https://github.com/creamsensation/assetter/raw/main/build.ts``
+
+### Then you can start development
+``make dev``
