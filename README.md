@@ -14,6 +14,9 @@
 #### Then go to assets folder and run
 > bun install
 
+### Run docker compose
+```docker compose up``` <br>
+
 ### Then you can start development in root folder
 ```make dev -j2``` <br>
 
