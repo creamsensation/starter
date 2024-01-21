@@ -1,3 +1,4 @@
 router:
+  localized: false
   path-prefix:
   prefer-prefix: true

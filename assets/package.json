@@ -1,0 +1,31 @@
+{
+  "name": "starter",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@datadog/build-plugin": "^1.0.4",
+    "@types/bun": "latest",
+    "autoprefixer": "^10.4.16",
+    "chalk": "^5.3.0",
+    "chokidar": "^3.5.3",
+    "cssnano": "^6.0.2",
+    "esbuild": "^0.19.11",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-manifest": "^1.0.2",
+    "esbuild-postcss": "^0.0.4",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "pretty-bytes": "^6.1.1",
+    "tailwindcss": "^3.4.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "htmx.org": "^1.9.10",
+    "stimulus-use": "^0.52.2",
+    "vanilla-lazyload": "^17.8.5"
+  }
+}

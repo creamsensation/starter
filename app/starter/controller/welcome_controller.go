@@ -23,7 +23,7 @@ func (r *WelcomeController) Main(c cp.Control) cp.Result {
 	return c.Response().Render(
 		Div(
 			Class("w-screen h-screen grid place-items-center text-2xl font-bold"),
-			Text("Welcome! Cream will puff you!"),
+			Text("Welcome to CP family! \t&#128513;"),
 		),
 	)
 }

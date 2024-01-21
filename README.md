@@ -1,22 +1,20 @@
 # Starter projects
 
-## You need install to run starter project
+## You need to install these things to run starter project
 
 ### Go 1.21+
 > https://formulae.brew.sh/formula/go
 
-### Deno
-> https://formulae.brew.sh/formula/deno 
-
-<br>
-Set project TypeScript to Deno.
-
-### Install for development
+### Recommended
 > https://formulae.brew.sh/formula/make <br>
 > https://github.com/cespare/reflex <br>
 
-#### If Assetter got new release, please run:
-``deno cache --reload https://github.com/creamsensation/assetter/raw/main/build.ts``
+### For assets recommended Bun
+> npm install -g bun
+#### Then go to assets folder and run
+> bun install
 
-### Then you can start development
-``make dev``
+### Then you can start development in root folder
+```make dev -j2``` <br>
+
+**-j2** flag runs app and assets build in parallel

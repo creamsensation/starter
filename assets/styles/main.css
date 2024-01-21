@@ -19,18 +19,3 @@
 .lazy:not(.loaded) {
 	@apply blur;
 }
-
-.reveal {
-	@apply transition;
-}
-
-.reveal:not(.is-active) {
-	@apply invisible;
-	@apply opacity-0;
-	@apply scale-95;
-}
-
-.reveal.is-active {
-	@apply visible;
-	@apply opacity-100;
-}

@@ -1,5 +1,4 @@
 assets:
-  root-path: app/starter/assets
-  config-path: config
+  root-path: assets
   public-path: .static
   output-path: .dist

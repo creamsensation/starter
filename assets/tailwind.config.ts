@@ -1,8 +1,7 @@
 export default {
-	content: ['./app/**/*.go'],
+	content: ['../app/**/*.go'],
 	theme: {
 		extend: {},
 	},
 	plugins: [],
 }
-

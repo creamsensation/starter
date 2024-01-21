@@ -1,4 +1,7 @@
 .idea
-app/starter/assets/.static/.dist
-app/starter/assets/.static/scripts
-app/starter/assets/.static/styles
+app/starter/.private
+assets/.static/.dist
+assets/node_modules/
+assets/bun.lockb
+assets/.static/scripts
+assets/.static/styles
