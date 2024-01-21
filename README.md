@@ -1,4 +1,4 @@
-# Starter projects
+# Starter project
 
 ## You need to install these things to run starter project
 
