@@ -2,7 +2,7 @@ module starter
 
 go 1.21
 
-require github.com/creamsensation/cp v0.2.3
+require github.com/creamsensation/cp v0.2.4
 
 require (
 	github.com/andybalholm/brotli v1.0.6 // indirect
